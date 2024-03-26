@@ -11,6 +11,7 @@
 - Réorganisation de la hiérarchie de titres (h1, h2, etc.)
 - Images renommées pour optimisation SEO
 - Ajout du balisage schema pour le référencement local
+- Ajout des meta pour réseaux sociaux
 
 
 
