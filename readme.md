@@ -29,7 +29,7 @@
 
 - V Faire une optimisation globale du site tant sur les performances que sur le SEO.
 - V Mettre en place le référencement local en utilisant Schema.org.
-- Ajouter les metas pour les réseaux sociaux.
+- V Ajouter les metas pour les réseaux sociaux.
 - V Faire les modifications liées à l’accessibilité du site.
 - Produire un rapport d’optimisation présentant toutes vos actions et leur impact.
     se baser pour l'impact sur google rich snippets (https://search.google.com/test/rich-results)
