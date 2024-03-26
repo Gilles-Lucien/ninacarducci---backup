@@ -4,21 +4,51 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link defer rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" as="style">
-	<link  rel="stylesheet" href="./assets/style.css" as="style">
+	<link rel="stylesheet" href="./assets/style.css" as="style">
 	<link defer rel="preconnect" href="https://fonts.googleapis.com">
 	<link defer rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link defer
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<meta name="description"
-		content="Nina Carducci, photographe freelance sur Bordeaux. Capturant les moments les plus précieux avec passion et créativité. Contactez-moi pour immortaliser vos souvenirs.">
-	<title>Nina Carducci, photographe freelance sur Bordeaux</title>
+
 	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
+
+	<!-- Open graph -->
+	<!-- Base-->
+	<meta name="description"
+		content="Nina Carducci, photographe freelance sur Bordeaux. Capturant les moments les plus précieux avec passion et créativité. Contactez-moi pour immortaliser vos souvenirs.">
+	<title>Nina Carducci, photographe freelance sur Bordeaux</title>
+
+
+	<!-- Schema.org -->
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "telephone": "05 56 67 78 89",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"addressCountry": "France",
+			"postalCode": "33200"
+		  },
+		  "openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": {
+			  "@type": "DayOfWeek",
+			  "name": "Lundi au vendredi"
+			}
+		  }
+		}
+		</script>
+
 
 </head>
 
@@ -82,7 +112,7 @@
 	<main>
 		<section id="about">
 			<div class="picture left">
-				<img alt="nina"  src="./assets/images/nina.webp">
+				<img alt="nina" src="./assets/images/nina.webp">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
